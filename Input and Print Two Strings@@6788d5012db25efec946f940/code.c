@@ -3,7 +3,7 @@
 
 
 int main() {
-   char str1[10], str2[10];
+   char str1[100], str2[100];
    scanf("%s",&str1);
    scanf("%s",&str2);
 
