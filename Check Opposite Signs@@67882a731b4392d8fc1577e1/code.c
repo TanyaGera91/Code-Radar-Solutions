@@ -8,7 +8,7 @@ int main() {
    
    int a=10,b=20;
    if ((a>=0 && b<0) || (a<0 && b>=0))
-   print ("True");
+   printf ("True");
    else
    printf("False");
    return 0;
