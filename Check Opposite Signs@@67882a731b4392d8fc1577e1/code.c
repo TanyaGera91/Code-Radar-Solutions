@@ -1,16 +1,18 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
-   
-   int a,b;
-   scanf("%d%d",&a, &b);
-   if ((a>0 && b<=0) || (a<=0 && b>0))
-   printf ("True");
-   else
-   printf("False");
-   return 0;
+    int num1, num2;
+
+    // Input two numbers
+    printf("Enter two numbers: ");
+    scanf("%d %d", &num1, &num2);
+
+    // Check if the numbers have opposite signs
+    if ((num1 < 0 && num2 >= 0) || (num1 >= 0 && num2 < 0)) {
+        printf("True\n");
+    } else {
+        printf("False\n");
+    }
+
+    return 0;
 }
