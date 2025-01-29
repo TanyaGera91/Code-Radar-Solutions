@@ -1,17 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int num, bit_no;
-    scanf("%d%d", &num, &bit_no);
+    int num, n;
+    scanf("%d", &num);
+    scanf("%d", &n);
 
-    // Find the total number of bits in an integer
-    //bit_no = sizeof(int) * 8;  // Assuming 32-bit integer, bits = 32
-
-    // Create a mask for the MSB by shifting 1 to the left (bits - 1) positions
-    int mask = 1 << (bit_no - 1);
-
-    // Check if MSB is set using bitwise AND
-    if (num & mask) {
+    // Check if the nth bit is set using bitwise AND
+    if (num & (1 << n)) {
         printf("1");
     } else {
         printf("0");
