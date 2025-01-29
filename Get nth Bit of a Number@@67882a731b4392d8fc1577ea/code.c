@@ -5,7 +5,7 @@ int main() {
     scanf("%d%d", &num, &bit_no);
 
     // Find the total number of bits in an integer
-    bit_no = sizeof(int) * 8;  // Assuming 32-bit integer, bits = 32
+    //bit_no = sizeof(int) * 8;  // Assuming 32-bit integer, bits = 32
 
     // Create a mask for the MSB by shifting 1 to the left (bits - 1) positions
     int mask = 1 << (bit_no - 1);
