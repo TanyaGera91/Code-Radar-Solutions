@@ -5,8 +5,6 @@ int main() {
 
   
     scanf("%d", &num);
-    
-    printf("Enter the bit position to clear (0-based index): ");
     scanf("%d", &n);
 
     // Create a mask with the nth bit cleared (using bitwise AND with NOT)
