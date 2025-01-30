@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/*
 int countLeadingZeros(unsigned int n) {
     if (n == 0) return 32; // For a 32-bit integer, all bits are zero
 
@@ -18,5 +18,23 @@ int main() {
     unsigned int n;
     scanf("%d",&n) ;// Example number
     printf("%d", countLeadingZeros(n));
+    return 0;
+}*/
+
+
+
+int main()
+{   int a, i=0;
+   scanf("%d". &a);
+
+while(a!=0)
+{
+    i++;
+    a>>=1;
+
+}
+printf("%d",32-i);
+
+
     return 0;
 }
