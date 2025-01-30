@@ -16,3 +16,4 @@ int main() {
     scanf("%d",&n);
     printf("%d\n", countTrailingZeros(n));
     return 0;
+}
