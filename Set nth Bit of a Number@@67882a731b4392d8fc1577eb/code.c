@@ -7,7 +7,7 @@ int main() {
     
     num = num | (1 << n);  // Set the nth bit using bitwise OR
     
-    printf("Number after setting bit %u: %u\n", n, num);
+    printf("%u",num);
     
     return 0;
 }
