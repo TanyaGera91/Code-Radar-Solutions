@@ -13,11 +13,11 @@ int main() {
    // printf("Enter two numbers: ");
     scanf("%d %d", &x, &y);
     
-    printf("%d%d", x, y);
+    //printf("%d%d", x, y);
     
     swap(&x, &y);
     
-    printf("After swapping: x = %d, y = %d\n", x, y);
+    printf("%d%d", x, y);
     
     return 0;
 }
