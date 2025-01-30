@@ -25,7 +25,7 @@ int main() {
 
 int main()
 {   int a, i=0;
-   scanf("%d". &a);
+   scanf("%d", &a);
 
 while(a!=0)
 {
