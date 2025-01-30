@@ -13,6 +13,6 @@ int countTrailingZeros(unsigned int n) {
 
 int main() {
     unsigned int n;
-    scanf("%d",&n)
+    scanf("%d",&n);
     printf("%d\n", countTrailingZeros(n));
     return 0;
