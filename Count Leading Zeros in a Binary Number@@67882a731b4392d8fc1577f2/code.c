@@ -15,7 +15,8 @@ int countLeadingZeros(unsigned int n) {
 }
 
 int main() {
-    unsigned int n = 18; // Example number
+    unsigned int n;
+    scanf("%d",&n) ;// Example number
     printf("%d", countLeadingZeros(n));
     return 0;
 }
