@@ -18,7 +18,6 @@ int main() {
         num = num >> 1;  // Right shift to check the next bit
         pos++;           // Increase position
     }
-
     // Print the position of the lowest set bit
     printf("The lowest set bit is at position: %d\n", pos);
 
