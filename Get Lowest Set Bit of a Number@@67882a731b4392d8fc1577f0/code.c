@@ -19,7 +19,7 @@ int main() {
         pos++;           // Increase position
     }
     // Print the position of the lowest set bit
-    printf("The lowest set bit is at position: %d\n", pos);
+    printf("%d", pos);
 
     return 0;
 }
