@@ -24,8 +24,8 @@ int main() {
 
 */
 int main()
-{   int a, i=0;
-   scanf("%d", &a);
+{  lont int a, i=0;
+   scanf("%ld", &a);
 
 while(a!=0)
 {
