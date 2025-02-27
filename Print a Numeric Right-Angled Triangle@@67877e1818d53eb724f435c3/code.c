@@ -14,7 +14,7 @@ int main() {
     int N;
     
     // Take input from user
-    printf("Enter the number of rows: ");
+   // printf("Enter the number of rows: ");
     scanf("%d", &N);
 
     // Function call
