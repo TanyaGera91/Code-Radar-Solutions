@@ -18,7 +18,7 @@ int main() {
     int N;
     
     // Take input from user
-    printf("Enter the size of the square: ");
+  //  printf("Enter the size of the square: ");
     scanf("%d", &N);
 
     // Function call
