@@ -17,4 +17,4 @@ for(i=1;i<=N;i++)
     printf("\n");
 }
 return 0;
-} here...
+} 
