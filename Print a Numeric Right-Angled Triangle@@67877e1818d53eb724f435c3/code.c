@@ -4,7 +4,7 @@
 void print_numeric_triangle(int N) {
     for (int i = 1; i <= N; i++) {  // Loop for each row
         for (int j = 1; j <= i; j++) {  // Loop to print numbers
-            printf("%d", j);
+            printf("%d ", j);
         }
         printf("\n");  // Move to the next line
     }
