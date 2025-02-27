@@ -1,4 +1,5 @@
-// Your code#include<stdio.h>
+// Your code
+#include<stdio.h>
 int main()
 {
 /*
